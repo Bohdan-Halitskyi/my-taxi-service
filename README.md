@@ -10,6 +10,13 @@ Manage your cars and drivers, get and provide info about cars manufacturers and 
 - Additional car info such as manufacturer and country of origin
 ## Structure
 Servlets linked to 3-layer DAO services for each scoped object, covered by a filter to protect data from unauthorised access
+## Used technologies
+JDK 19.0.2
+Tomcat 9.0.71
+Maven 3.8.6
+JSP
+JDBC
+MySQL 8.0
 ## Startup instructions
 Use init_db script to initialise project required db at your server, configure connection util constants to match your links and server user credentials and deploy it on your servlet container
 ## Feedback
